@@ -3,8 +3,8 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-#Include, %A_ScriptDir%/../config.ahk
-#Include, %A_ScriptDir%/../utils.ahk
+#Include, %A_ScriptDir%/../Config/config.ahk
+#Include, %A_ScriptDir%/../Utils/utils.ahk
 
 ROLLING_BOULDER_DELAY := 1.00
 
