@@ -6,6 +6,21 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Include, %A_ScriptDir%/../Config/config.ahk
 #Include, %A_ScriptDir%/../Utils/utils.ahk
 
+LAlt & q::
+    Gosub, Tornado
+    Gosub, EMP
+Return
+
+Tornado:
+    Send, x
+    Sleep, 150
+Return
+
+EMP:
+    Send, c
+    Sleep, 150
+Return
+
 ; =============Exort Skills==============
 ; Sunstrike
 $t::
