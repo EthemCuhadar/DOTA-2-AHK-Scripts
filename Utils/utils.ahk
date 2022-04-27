@@ -4,4 +4,4 @@
 Random randomSleep, 100, 200
 
 ; Short random delay
-Random shortDelay, 50, 75
+Random shortDelay, 25, 50
